@@ -10365,18 +10365,17 @@
 
 /***/ },
 /* 2 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	'use strict';
+	// var $ = require('jquery');
 	
-	var $ = __webpack_require__(1);
+	// var makeBackgroundRed = function() {
+	//     console.log('LOOK OUT FOR MEEEEE');
+	//     $('body').css('background-color', 'red');
+	// };
 	
-	var makeBackgroundRed = function makeBackgroundRed() {
-	    console.log('LOOK OUT FOR MEEEEE');
-	    $('body').css('background-color', 'red');
-	};
-	
-	module.exports = makeBackgroundRed;
+	// module.exports = makeBackgroundRed;
+	"use strict";
 
 /***/ }
 /******/ ]);

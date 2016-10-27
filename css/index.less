@@ -1,12 +1,40 @@
-@baker-miller-pink: #FF91AF;
 @blue: #6699ff;
 @white: #fff;
+@mint: #66ffcc;
+@gold: #c09644;
 
+* {
+   padding:0; margin:0;
+}
+
+html {
+    background-color: @mint;
+    text-align: center;
+}
 body {
-    background-color: @blue;
-    color: @white;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    background-color: @white;
+    color: black;
+    border: 4px solid @gold;
+    margin: 10% 10%;
+    padding: 10px;
 }
 
 button {
-    background-color: lighten(@blue, 95%);
+    background-color: @white;
+    border: 1px solid @gold;
+    display: inline;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 5px;
+    &:hover {
+        background-color: @mint;
+        color: @gold;
+        border: 1px solid @gold; 
+    }
 }
+
+h2 {
+    padding: 10px;
+}
+

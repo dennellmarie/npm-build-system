@@ -84,7 +84,7 @@ var setQuestion = function(questionIndex) {
     answersElement.empty();
     for (var i=0; i<question.answers.length; i++) {
         var answer = question.answers[i];
-        answersElement.append('<li><button type="button">' + answer + '</button></li>');
+        answersElement.append(`<li><button type="button">${answer}</button></li>`);
     }
 };
 
